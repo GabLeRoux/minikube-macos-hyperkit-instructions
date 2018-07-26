@@ -5,9 +5,7 @@ language: objective-c
 osx_image: xcode9.3
 
 script:
-    - ./install_minikube_hyperkit.sh
-    - sudo find / -name hyperkit
-    - which hyperkit
-    - ls -la /usr/local/bin/hyperkit
     - export PATH=$PATH:/usr/local/bin/
+    - ./install_docker_hyperkit_on_travis.sh
+    - ./install_minikube_hyperkit.sh
     - ./start_minikube.sh

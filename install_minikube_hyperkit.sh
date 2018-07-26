@@ -3,7 +3,7 @@
 FORMULA_URL=https://raw.githubusercontent.com/jacobwgillespie/homebrew-core/docker-machine-driver-hyperkit/Formula/docker-machine-driver-hyperkit.rb
 DRIVER_BINARY_PATH=/usr/local/bin/docker-machine-driver-hyperkit
 
-brew cask install minikube docker
+brew cask install minikube
 brew install $FORMULA_URL
 
 # ensure binary is linked
