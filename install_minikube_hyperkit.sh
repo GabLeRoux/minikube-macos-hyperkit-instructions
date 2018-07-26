@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
+FORMULA_URL=https://raw.githubusercontent.com/jacobwgillespie/homebrew-core/docker-machine-driver-hyperkit/Formula/docker-machine-driver-hyperkit.rb
+DRIVER_BINARY_PATH=/usr/local/bin/docker-machine-driver-hyperkit
+
 brew cask install minikube docker
-brew install https://raw.githubusercontent.com/jacobwgillespie/homebrew-core/56ddf54dafcfa0668c2e9491c9183ee5accb1217/Formula/docker-machine-driver-hyperkit.rb
-sudo chown root:wheel /usr/local/bin/docker-machine-driver-hyperkit && sudo chmod u+s /usr/local/bin/docker-machine-driver-hyperkit
+brew install $FORMULA_URL
+sudo chown root:wheel $DRIVER_BINARY_PATH
+sudo chmod u+s $DRIVER_BINARY_PATH
 
