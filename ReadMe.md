@@ -4,6 +4,9 @@
 
 I created this as a repo because I don't like gists ;)
 
+Related homebrew PR:
+* https://github.com/Homebrew/homebrew-core/pull/28076
+
 See [install_minikube_hyperkit.sh](install_minikube_hyperkit.sh)
 
 
