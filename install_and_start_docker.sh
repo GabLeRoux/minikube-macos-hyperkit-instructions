@@ -4,6 +4,8 @@ set -x
 
 brew cask install docker
 
+# https://github.com/docker/for-mac/issues/2359
+# https://github.com/drud/ddev/issues/575
 sudo /Applications/Docker.app/Contents/MacOS/Docker --unattended &
 
 while ! docker system info > /dev/null 2>&1; do

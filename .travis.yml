@@ -7,7 +7,7 @@ osx_image: xcode9.3
 script:
     - export PATH=$PATH:/usr/local/bin/
     - ./install_docker_hyperkit_on_travis.sh
-    - ./install_and_start_docker.sh
+    #- ./install_and_start_docker.sh
     - ./install_minikube_hyperkit.sh
-    - ./start_minikube.sh
-    - ./debug_minikube.sh
+    #- ./start_minikube.sh
+    #- ./debug_minikube.sh
