@@ -18,3 +18,4 @@ ls -l .minikube/machines/minikube/hyperkit.pid
 # start minikube using hyperkit driver
 minikube start --vm-driver=hyperkit
 
+minikube logs

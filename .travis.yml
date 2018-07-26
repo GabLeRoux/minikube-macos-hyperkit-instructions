@@ -8,4 +8,6 @@ script:
     - export PATH=$PATH:/usr/local/bin/
     - ./install_docker_hyperkit_on_travis.sh
     - ./install_minikube_hyperkit.sh
+    - open /Applications/docker.app
+    - sleep 50
     - ./start_minikube.sh
