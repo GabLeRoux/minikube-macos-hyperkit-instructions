@@ -14,6 +14,8 @@ echo VM driver: `grep DriverName ~/.minikube/machines/minikube/config.json`
 echo ISO version `grep -i ISO ~/.minikube/machines/minikube/config.json`
 
 ls -l .minikube/machines/minikube/hyperkit.pid
+rm ~/.minikube/machines/minikube/hyperkit.pid
+ls -l .minikube/machines/minikube/hyperkit.pid
 
 # start minikube using hyperkit driver
 minikube start --vm-driver=hyperkit
