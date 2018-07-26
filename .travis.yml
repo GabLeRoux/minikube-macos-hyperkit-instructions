@@ -9,3 +9,4 @@ script:
     - ./install_docker_hyperkit_on_travis.sh
     - ./install_minikube_hyperkit.sh
     - ./start_minikube.sh
+    - ./debug_minikube.sh
