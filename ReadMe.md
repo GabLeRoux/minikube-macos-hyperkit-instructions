@@ -13,4 +13,8 @@ See [install_minikube_hyperkit.sh](install_minikube_hyperkit.sh)
 
 ## Conclusion
 
-We can't run docker for mac on Travis so we can't confirm this, but the related pr does its job well byt providing actual driver. The install script is safe to run. :tada:
+[We can't run docker for mac on Travis](https://travis-ci.com/GabLeRoux/minikube-macos-hyperkit-instructions/builds/80118378#L671).
+
+> Terminator: Incompatible CPU detected.
+
+So we can't confirm this, but the related pr does its job well by providing actual driver. The install script is safe to run. :tada:
